@@ -1,0 +1,50 @@
+body {
+  background-color: papayawhip;
+}
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 50px;
+}
+#searchBox {
+  font-size: 20px;
+  text-align: center;
+}
+#searchBox #textSearch {
+  outline: none;
+
+  padding: 2px 10px;
+  width: 400px;
+  background-color: snow;
+  border: 2px solid snow;
+  border-radius: 5px;
+  color: darkslategray;
+  text-align: center;
+}
+#search {
+  outline: none;
+  border: none;
+  background: none;
+}
+#or {
+  margin:10px 0;
+  color: tomato;
+  font-size: 25px;
+  text-align: center;
+}
+#random {
+  font-size: 20px;
+  text-align: center;
+}
+#random a, a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: darkslategray;
+}
+#results {
+  margin: 50px 0;
+}
+.result {
+  margin: 10px 0;
+  background-color: pink;
+  padding: 1px 10px 10px 20px;
+}

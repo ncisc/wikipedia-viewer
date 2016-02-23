@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="searchBox">
+        <input type="text" id="textSearch" placeholder="Search for a Wikipedia article"/>
+        <button id="search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </div>
+      <div id="or">Or</div>
+      <div id="random"><a href="http://en.wikipedia.org/wiki/Special:Random">Click for a random article</a></div>
+      <div id="results">
+        <!-- this is a sample result
+        <a class="link" href="http://en.wikipedia.org/?curid=14271726">
+          <div class="result">
+            <h3 class="title"></h3>
+            <div class="description"></div>
+          </div>
+        </a>
+        -->
+      </div>
+    </div>
+  </body>
+</html>
